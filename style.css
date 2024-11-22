@@ -16,7 +16,10 @@ body {
 }
 
 main {
-    width: 100hv;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Aligns items horizontally */
+    align-items: center;
 }
 
 #Calculator {
@@ -104,19 +107,6 @@ main {
     #Calculator {
         width: auto;
         margin: 0;
-    }
-
-    .display-hist {
-        font-size: 15px;
-    }
-
-    .display-operator {
-        font-weight: bold;
-        font-size: 15px;
-    }
-
-    .display-input {
-        font-size: 20px;
     }
 
     .button-17 {
